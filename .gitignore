@@ -14,12 +14,9 @@ venv/
 env/
 
 # ── Environment / secrets
-.env
-.env.*
 !.env.example
 
 # ── IDEs / editors
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -40,3 +37,5 @@ scripts/api_responses.json
 *.key.pem
 *.pem
 *.key
+config.bat
+node_modules
